@@ -36,6 +36,11 @@ a:active {
     gap: 25px;
 }
 
+.img {
+    width: 340px; 
+    height: 176px;
+}
+
 @media (max-width: 1024px) {
     .content {
         max-width: 660px;
@@ -61,47 +66,3 @@ a:active {
     margin-bottom: 30px;
 }
 
-.footer{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    gap: 1px;
-    text-align: center;
-}
-
-.footer>p{
-    margin: 0;
-}
-
-.wrap-main{
-    flex: flex;
-    flex-direction: column;
-    gap: 6px;
-}
-
-.wrap-body{
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-}
-
-/* .table2 {
-    border:0;
-    background-color: rgb(192, 192, 192); 
-    height: 21px; 
-    text-align:center;
-} */
-
-/* .background230 {
-    background-color: rgb(230, 230, 230);
-    width: 100%;
-} */
-
-.color0 {
-    color: black;
-}
-
-.font-bold {
-    font-weight: bold;
-}
