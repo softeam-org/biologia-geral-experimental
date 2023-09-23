@@ -1,0 +1,47 @@
+.bgcolor {
+    background-color: #F9F9F9;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.line {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+}
+
+.center-column {
+    flex-grow: 1;
+    width: 400px;
+}
+
+.cell {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 130px;
+    border: 2px solid rgba(0, 0, 0, 0.023);
+    padding: 10px;
+}
+
+@media (max-width: 500px) {
+    .title {
+        height: 70px;
+    }
+
+    .line {
+        width: 100%;
+    }
+}
+
+
+/* * {
+    border: 2px solid red;
+} */
