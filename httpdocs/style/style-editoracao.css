@@ -7,38 +7,27 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    max-width: 800px;
+    width: 100%;
     margin: 0 auto;
 }
+
 
 .line {
     display: flex;
     justify-content: space-between;
-    width: 75%;
+    width: 100%;
 }
 
-.center-column {
-    flex-grow: 1;
-    width: 400px;
-}
 
 .cell {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    text-align: center;
     width: 200px;
     height: 130px;
     border: 2px solid rgba(0, 0, 0, 0.023);
     padding: 10px;
-}
-
-@media (max-width: 500px) {
-    .title {
-        height: 70px;
-    }
-
-    .line {
-        width: 100%;
-    }
 }
 
 
