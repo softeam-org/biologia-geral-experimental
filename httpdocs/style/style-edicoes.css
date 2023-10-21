@@ -1,0 +1,52 @@
+.bgcolor {
+    background-color: #F9F9F9;
+}
+
+.color0000EE {
+    color: #0000EE;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.line {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.head-cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 30px;
+  padding: 10px;
+}
+
+.border {
+  border: 2px solid rgba(0, 0, 0, 0.0235);
+}
+
+.cell {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  height: 80px;
+  padding: 10px;
+}
+
+@media (max-width: 500px) {
+    .line {
+        width: 100%;
+    }
+}
