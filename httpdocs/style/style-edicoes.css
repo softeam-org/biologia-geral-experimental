@@ -22,16 +22,28 @@
     width: 100%;
 }
 
+.head-cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 33%;
+  height: 30px;
+  padding: 10px;
+}
+
+.border {
+  border: 2px solid rgba(0, 0, 0, 0.023);
+}
 
 .cell {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    width: 200px;
-    height: 130px;
-    border: 2px solid rgba(0, 0, 0, 0.023);
-    padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 33%;
+  height: 80px;
+  padding: 10px;
 }
 
 @media (max-width: 500px) {
