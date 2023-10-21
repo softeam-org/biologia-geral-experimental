@@ -1,6 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Verdana, Geneva, sans-serif;
     font-size: 12px;
+}
+
+main {
+    padding-top: 1rem;
 }
 
 a:link {
@@ -30,23 +40,34 @@ a:active {
 
 .content {
     display: flex;
-    flex-direction: column;
-    max-width: 800px;
-    margin: 0 auto;
     gap: 25px;
+    align-items:first baseline;
+    justify-content: space-between;
 }
 
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    justify-content: center;
+}
 .img {
     width: 340px; 
     height: 176px;
 }
 
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
     .content {
         max-width: 660px;
         margin: 0 auto;
     }
-}
+} */
 
 @media (max-width: 650px) {
     .header{
