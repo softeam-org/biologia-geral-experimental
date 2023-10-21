@@ -18,16 +18,17 @@
     width: 100%;
 }
 
+.border {
+    border: 2px solid rgba(0, 0, 0, 0.023);
+}
 
 .cell {
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    width: 200px;
-    height: 130px;
-    border: 2px solid rgba(0, 0, 0, 0.023);
     padding: 10px;
+    width: 33%;
 }
 
 
