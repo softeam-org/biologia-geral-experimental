@@ -2,6 +2,11 @@
     color: #0000ff;
 }
 
+.atualizado {
+    display: flex;
+    font-style: italic;
+    justify-content: end;
+}
 
 .footer {
     width: 51%;
@@ -9,11 +14,11 @@
     flex-direction: column;
     justify-items: center;
     margin: 0 auto;
-    padding-top: 15%;
+    padding-top: 10%;
 }
 
 .footer>p {
-    margin-top: 0;
+    margin-top: 15px;
 }
 
 .align-email {
@@ -34,7 +39,7 @@
 
 @media (max-width: 800px) {
     .footer {
-        width: 45%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-items: center;
