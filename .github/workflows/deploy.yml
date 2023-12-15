@@ -1,0 +1,25 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    name: Deploy Biologia Geral e Experimental
+    runs-on: ubuntu-latest
+    environment: deploy
+    steps:
+      - name: Verifica se ocorreu commits recentes
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Sincroniza com o servidor
+        uses: SamKirkland/FTP-Deploy-Action@4.3.3
+        with:
+          local-dir: ./httpdocs/
+          server-dir: httpdocs/
+          server: ${{ secrets.ftp_host }}
+          username: ${{ secrets.ftp_user }}
+          password: ${{ secrets.ftp_password }}
