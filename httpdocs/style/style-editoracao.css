@@ -24,7 +24,7 @@
 
 .cell {
     display: flex;
-    justify-content: center;
+    font-size: 13px;
     flex-direction: column;
     text-align: center;
     padding: 10px;
