@@ -45,6 +45,7 @@
 }
 
 .center-cell {
+  font-size: 13px;
   display: flex;
   justify-content: center;
   flex-direction: column;
