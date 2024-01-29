@@ -1,109 +1,93 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Biologia Geral e Experiental - Editoração</title>
-    <link rel="stylesheet" href="./style/style.css">
-    <link rel="stylesheet" href="./style/style-editoracao.css">
+    <link rel="stylesheet" href="styles.css" />
   </head>
-  <body class="container">
-    <header>
-      <div>
-        <div class="align">
-          <img class="img" src="capa.JPG" />
-        </div>
-        <div class="header">
-          <div>
-            <span class="font-bold">
-              <a class="color0" href="index.html">| Apresentação |</a>
-            </span>
-          </div>
-          <div>
-            <span class="font-bold">
-              <a class="color0" href="editoracao.html">| Equipe Editorial |</a>
-            </span>
-          </div>
-          <div>
-            <span class="font-bold">
-              <a class="color0" href="edicoes.html">| Edições |</a>
-            </span>
-          </div>
-          <div>
-            <span class="font-bold">
-              <a class="color0" href="contatos.html">| Contatos |</a>
-            </span>
-          </div>
-          <div>
-            <span class="font-bold">
-              <a class="color0" href="instrucoes.html">| Instruções aos Autores |</a>
-            </span>
-          </div>
-        </div>
+  <body>
+    <header class="navbar">
+      <img width="340" height="176" src="capa.jpg" />
+      <nav>
+        <a href="index.html">Apresentação</a>
+        <a href="editoracao.html">Equipe Editorial</a>
+        <a href="edicoes.html">Edições</a>
+        <a href="contatos.html">Contatos</a>
+        <a href="instrucoes.html">Instruções aos Autores</a>
+      </nav>
     </header>
-    <main>
-      <div class="table">
-        <div class="line bgcolor">
-          <div class="cell border title"><strong>Editores</strong></div>
-          <div class="cell border center-column title"><strong>Editores Associados</strong></div>
-          <div class="cell border title">
-            <strong>Manutenção</strong>
-          </div>
-        </div>
-        <div class="line">
-          <div class="cell border">
-            <p>Celso Morato de Carvalho, Instituto Nacional de Pesquisas da Amazônia-MCTI (aposentado)
-            </p>
-          </div>
-          <div class="cell border center-column">
-            <div>
-              <p>
-                Adriano Vicente dos Santos, Governo Estadual de Pernambuco - DER, Recife
-              </p>
-            </div>
-          </div>
-          <div class="cell border">
-            <p>Desenvolvimento: SOFTEAM - Empresa Júnior de Computação. Univ. Fed. De Sergipe
-            </p>
-          </div>
-        </div>
-        <div class="line bgcolor">
-          <div class="cell border">
-            <p>Sebastião Pereira do Nascimento, Consultoria Ambiental e Assessoria Indígena, Boa Vista, Roraima
-            </p>
-          </div>
-          <div class="cell border center-column ">
-            <p>Everton Amâncio dos Santos, Conselho Nacional de Desenvolvimento Científico e Tecnológico CNPq-MCTI
-            </p>
-          </div>
-          <div class="cell border">
-            <p>Hospedagem: Infonet, Aracaju-SE
-            </p>
-          </div>
-        </div>
-        <div class="line">
-          <div class="cell border center-column">
-            <p>Adauto de Souza Ribeiro, Universidade Federal de Sergipe, Departamento de Ecologia
-            </p>
-          </div>
-          <div class="cell border center-column">Franciso Filho de Oliveira, Secretaria da Educação, Nossa Senhora de Lourdes, Sergipe</div>
-          <div class="cell border">&nbsp;</div>
-        </div>
-        <div class="line bgcolor">
-          <div class="cell border">&nbsp;</div>
-          <div class="cell border">
-            <p>Edson Fontes de Oliveira, Universidade Tecnológica Federal do Paraná, Londrina</p>
-          </div>
-          <div class="cell border">&nbsp;</div>
-        </div>
-        <div class="line">
-          <div class="cell border">&nbsp;</div>
-          <div class="cell border center-column">Jeane Carvalho Vilar, Aracaju</div>
-          <div class="cell border">&nbsp;</div>
-        </div>
-      </div>
+    <main class="publishing-content">
+      <table>
+        <thead>
+          <tr>
+            <th>Editores</th>
+            <th>Editores Associados</th>
+            <th>Manutenção</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              Celso Morato de Carvalho, Instituto Nacional de Pesquisas da
+              Amazônia-MCTI (aposentado)
+            </td>
+            <td>
+              Adriano Vicente dos Santos, Governo Estadual de Pernambuco -
+              DER, Recife
+            </td>
+            <td>
+              Desenvolvimento: SOFTEAM - Empresa Júnior de Computação. Univ.
+              Fed. De Sergipe
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Sebastião Pereira do Nascimento, Consultoria Ambiental e Assessoria
+              Indígena, Boa Vista, Roraima
+            </td>
+            <td>
+              Everton Amâncio dos Santos, Conselho Nacional de Desenvolvimento
+              Científico e Tecnológico CNPq-MCTI
+            </td>
+            <td>
+              Hospedagem: Infonet, Aracaju-SE
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Adauto de Souza Ribeiro, Universidade Federal de Sergipe,
+              Departamento de Ecologia
+            </td>
+            <td>
+              Franciso Filho de Oliveira, Secretaria da Educação, Nossa Senhora de
+              Lourdes, Sergipe
+            </td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <td>
+            </td>
+            <td>
+              Edson Fontes de Oliveira, Universidade Tecnológica Federal do
+              Paraná, Londrina
+            </td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <td>
+            </td>
+            <td>
+              Jeane Carvalho Vilar, Aracaju
+            </td>
+            <td>
+            </td>
+          </tr>
+        </tbody>
+      </table>
     </main>
   </body>
 </html>

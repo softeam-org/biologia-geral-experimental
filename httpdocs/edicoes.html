@@ -1,84 +1,41 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="e-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Biologia Geral e Experiental - Edições</title>
-    <link rel="stylesheet" href="./style/style.css">
-    <link rel="stylesheet" href="./style/style-edicoes.css">
+    <link rel="stylesheet" href="styles.css" />
   </head>
-  <body class="container">
-    <header>
-      <div>
-        <div class="align">
-          <img class="img" src="capa.JPG" />
-        </div>
-        <div class="header">
-          <div>
-            <span class="font-bold">
-              <a class="color0" href="index.html">| Apresentação |</a>
-            </span>
-          </div>
-        
-          <div>
-            <span class="font-bold">
-              <a class="color0" href="editoracao.html">| Equipe Editorial |</a>
-            </span>
-          </div>
-    
-          <div>
-            <span class="font-bold">
-              <a class="color0" href="edicoes.html">| Edições |</a>
-            </span>
-          </div>
-    
-          <div>
-            <span class="font-bold">
-              <a class="color0" href="contatos.html">| Contatos |</a>
-            </span>
-          </div>
-          <div>
-            <span class="font-bold">
-              <a class="color0" href="instrucoes.html">| Instruções aos Autores |</a>
-            </span>
-          </div>
-        </div>
+  <body>
+    <header class="navbar">
+      <img width="340" height="176" src="capa.jpg" />
+      <nav>
+        <a href="index.html">Apresentação</a>
+        <a href="editoracao.html">Equipe Editorial</a>
+        <a href="edicoes.html">Edições</a>
+        <a href="contatos.html">Contatos</a>
+        <a href="instrucoes.html">Instruções aos Autores</a>
+      </nav>
     </header>
-    <main class="content">
-      <div class="column border">
-        <div class="head-cell border bgcolor">
+    <main class="editions-content">
+        <section>
           <strong>TEMAS</strong>
-        </div>
-        <div class="border" id="biologia-celular">
-          <div class="head-cell border bgcolor">
-            <strong>BIOLOGIA CELULAR</strong>
-          </div>
-
-          <div class="cell border">
-            <div>Citogenética Evolução</div>
-            <div>
+          <strong>BIOLOGIA CELULAR</strong>
+          <div>
+            <span>Citogenética Evolução</span>
+            <nav>
               <a href="temas/biologia-celular/genetica-citogenetica-evolucao/1.pdf" target="_blank">1</a>
               <a href="temas/biologia-celular/genetica-citogenetica-evolucao/2.pdf" target="_blank">2</a>
               <a href="temas/biologia-celular/genetica-citogenetica-evolucao/3.pdf" target="_blank">3</a>
               <a href="temas/biologia-celular/genetica-citogenetica-evolucao/4.pdf" target="_blank">4</a>
               <a href="temas/biologia-celular/genetica-citogenetica-evolucao/5.pdf" target="_blank">5</a>
-            </div>
+            </nav>
           </div>
-
-          <!-- <div class="empty-cell border"></div> -->
-
-        </div>
-
-
-        <div class="border" id="ecologia-metodos">
-          <div class="head-cell border bgcolor">
-            <strong>ECOLOGIA MÉTODOS</strong>
-          </div>
-
-          <div class="cell border">
-            <div>Conservação Educação Ambiental Etnodiversidade</div>
-            <div>
+          <strong>ECOLOGIA MÉTODOS</strong>
+          <div>
+            <span>Conservação Educação Ambiental Etnodiversidade</span>
+            <nav>
               <a href="temas/ecologia-metodos/conservacao-educacao_ambiental-etnodiversidade/1.pdf" target="_blank">1</a>
               <a href="temas/ecologia-metodos/conservacao-educacao_ambiental-etnodiversidade/2.pdf" target="_blank">2</a>
               <a href="temas/ecologia-metodos/conservacao-educacao_ambiental-etnodiversidade/3.pdf" target="_blank">3</a>
@@ -86,75 +43,62 @@
               <a href="temas/ecologia-metodos/conservacao-educacao_ambiental-etnodiversidade/5.pdf" target="_blank">5</a>
               <a href="temas/ecologia-metodos/conservacao-educacao_ambiental-etnodiversidade/5.pdf" target="_blank">6</a>
               <a href="temas/ecologia-metodos/conservacao-educacao_ambiental-etnodiversidade/5.pdf" target="_blank">7</a>
-            </div>
+            </nav>
           </div>
-
-          <div class="cell border">
-            <div>Geografía Geomorfología Hábitats</div>
-            <div>
+          <div>
+            <span>Geografía Geomorfología Hábitats</span>
+            <nav>
               <a href="temas/ecologia-metodos/geografia-geomorfologia-habitats/1.pdf" target="_blank">1</a>
               <a href="temas/ecologia-metodos/geografia-geomorfologia-habitats/2.pdf" target="_blank">2</a>
               <a href="temas/ecologia-metodos/geografia-geomorfologia-habitats/3.pdf" target="_blank">3</a>
               <a href="temas/ecologia-metodos/geografia-geomorfologia-habitats/4.pdf" target="_blank">4</a>
-            </div>
+            </nav>
           </div>
-
-          <div class="cell border">
-            <div>distribuição espacial  métodos quantitativos paleopalinologia</div>
-            <div>
+          <div>
+            <span>Distribuição Espacial, Métodos Quantitativos e Paleopalinologia</span>
+            <nav>
               <a href="temas/ecologia-metodos/distribuicao_espacial-paleopalinologia-metodos_quantitativos/1.pdf" target="_blank">1</a>
               <a href="temas/ecologia-metodos/distribuicao_espacial-paleopalinologia-metodos_quantitativos/2.pdf" target="_blank">2</a>
               <a href="temas/ecologia-metodos/distribuicao_espacial-paleopalinologia-metodos_quantitativos/3.pdf" target="_blank">3</a>
               <a href="temas/ecologia-metodos/distribuicao_espacial-paleopalinologia-metodos_quantitativos/4.pdf" target="_blank">4</a>
               <a href="temas/ecologia-metodos/distribuicao_espacial-paleopalinologia-metodos_quantitativos/5.pdf" target="_blank">5</a>
-            </div>
+            </nav>
           </div>
-          <!-- <div class="empty-cell border"></div> -->
-
         </div>
-
-
-        <div class="border" id="fauna">
-          <div class="head-cell border bgcolor">
-            <strong>FAUNA</strong>
-          </div>
-
-          <div class="cell border">
-            <div>Cnidaria Echinodermata Copepoda Cladocera</div>
-            <div>
+          <strong>FAUNA</strong>
+          <div>
+            <span>Cnidaria Echinodermata Copepoda Cladocera</span>
+            <nav>
               <a href="temas/fauna/cnidaria-echinodermata-copepoda-cladocera/1.pdf" target="_blank">1</a>
               <a href="temas/fauna/cnidaria-echinodermata-copepoda-cladocera/2.pdf" target="_blank">2</a>
               <a href="temas/fauna/cnidaria-echinodermata-copepoda-cladocera/3.pdf" target="_blank">3</a>
               <a href="temas/fauna/cnidaria-echinodermata-copepoda-cladocera/4.pdf" target="_blank">4</a>
               <a href="temas/fauna/cnidaria-echinodermata-copepoda-cladocera/5.pdf" target="_blank">5</a>
-            </div>
+            </nav>
           </div>
-
-          <div class="cell border">
-            <div>Abelhas Aranhas</div>
-            <div>
+          <div>
+            <span>Abelhas Aranhas</span>
+            <nav>
               <a href="temas/fauna/abelhas-aranhas/1.pdf" target="_blank">1</a>
               <a href="temas/fauna/abelhas-aranhas/2.pdf" target="_blank">2</a>
               <a href="temas/fauna/abelhas-aranhas/3.pdf" target="_blank">3</a>
               <a href="temas/fauna/abelhas-aranhas/4.pdf" target="_blank">4</a>
               <a href="temas/fauna/abelhas-aranhas/5.pdf" target="_blank">5</a>
-            </div>
+            </nav>
           </div>
-
-          <div class="cell border">
-            <div>Anfíbios</div>
-            <div>
+          <div>
+            <span>Anfíbios</span>
+            <nav>
               <a href="temas/fauna/anfibios/1.pdf" target="_blank">1</a>
               <a href="temas/fauna/anfibios/2.pdf" target="_blank">2</a>
               <a href="temas/fauna/anfibios/3.pdf" target="_blank">3</a>
               <a href="temas/fauna/anfibios/4(parte).pdf" target="_blank">4</a>
               <a href="temas/fauna/anfibios/5(parte).pdf" target="_blank">5</a>
-            </div>
+            </nav>
           </div>
-
-          <div class="cell border">
-            <div class="type">Répteis Aves</div>
-            <div class="pages">
+          <div>
+            <span>Répteis Aves</span>
+            <nav>
               <a href="temas/fauna/repteis-aves/1.pdf" target="_blank">1</a>
               <a href="temas/fauna/repteis-aves/2.pdf" target="_blank">2</a>
               <a href="temas/fauna/repteis-aves/3(parte).pdf" target="_blank">3</a>
@@ -169,12 +113,11 @@
               <a href="temas/fauna/repteis-aves/12.pdf" target="_blank">12</a>
               <a href="temas/fauna/repteis-aves/13.pdf" target="_blank">13</a>
               <a href="temas/fauna/repteis-aves/14(parte).pdf" target="_blank">14</a>
-            </div>
+            </nav>
           </div>
-
-          <div class="cell border">
-            <div>Mamíferos</div>
-            <div>
+          <div>
+            <span>Mamíferos</>
+            <nav>
               <a href="temas/fauna/mamiferos/1.pdf" target="_blank">1</a>
               <a href="temas/fauna/mamiferos/2.pdf" target="_blank">2</a>
               <a href="temas/fauna/mamiferos/3(parte).pdf" target="_blank">3</a>
@@ -182,22 +125,12 @@
               <a href="temas/fauna/mamiferos/5.pdf" target="_blank">5</a>
               <a href="temas/fauna/mamiferos/6.pdf" target="_blank">6</a>
               <a href="temas/fauna/mamiferos/7.pdf" target="_blank">7</a>
-            </div>
+            </nav>
           </div>
-
-          <!-- <div class="empty-cell border"></div> -->
-
-        </div>
-
-
-        <div class="border" id="flora">
-          <div class="head-cell border bgcolor">
-            <strong>FLORA</strong>
-          </div>
-
-          <div class="cell border">
-            <div>Plantas Medicinais</div>
-            <div class="pages">
+          <strong>FLORA</strong>
+          <div>
+            <span>Plantas Medicinais</span>
+            <nav>
               <a href="temas/flora/plantas-medicinais/1.pdf" target="_blank">1</a>
               <a href="temas/flora/plantas-medicinais/2.pdf" target="_blank">2</a>
               <a href="temas/flora/plantas-medicinais/3.pdf" target="_blank">3</a>
@@ -205,82 +138,58 @@
               <a href="temas/flora/plantas-medicinais/5.pdf" target="_blank">5</a>
               <a href="temas/flora/plantas-medicinais/6.pdf" target="_blank">6</a>
               <a href="temas/flora/plantas-medicinais/7.pdf" target="_blank">7</a>
-            </div>
+            </nav>
           </div>
-
-          <div class="cell border">
-            <div>Distribuição Espacial Métodos Quantitativos</div>
-            <div class="pages">
+          <div>
+            <span>Distribuição Espacial Métodos Quantitativos</span>
+            <nav>
               <a href="temas/flora/distribuicao_espacial-metodos_quantitativos/1.pdf" target="_blank">1</a>
               <a href="temas/flora/distribuicao_espacial-metodos_quantitativos/2.pdf" target="_blank">2</a>
               <a href="temas/flora/distribuicao_espacial-metodos_quantitativos/3.pdf" target="_blank">3</a>
-            </div>
+            </nav>
           </div>
-
-          <div class="cell border">
-            <!-- <div><p>Algas Propagação&nbsp;<i>in vitro</i> Paleopalinologia</p></div> -->
-            <div><p>Algas Micropropagação Paleopalinologia</p></div>
-            <div class="pages">
+          <div>
+            <span>Algas Micropropagação Paleopalinologia</span>
+            <nav>
               <a href="temas/flora/algas-propagacao_in_vitro-paleopalinologia/1.pdf" target="_blank">1</a>
               <a href="temas/flora/algas-propagacao_in_vitro-paleopalinologia/2.pdf" target="_blank">2</a>
               <a href="temas/flora/algas-propagacao_in_vitro-paleopalinologia/3.pdf" target="_blank">3</a>
               <a href="temas/flora/algas-propagacao_in_vitro-paleopalinologia/4.pdf" target="_blank">4</a>
               <a href="temas/flora/algas-propagacao_in_vitro-paleopalinologia/4.pdf" target="_blank">5</a>
               <a href="temas/flora/algas-propagacao_in_vitro-paleopalinologia/4.pdf" target="_blank">6</a>
-            </div>
+            </nav>
           </div>
-        </div>
-
-        <!-- <div class="empty-cell border"></div> -->
-
-        <div class="border" id="fisiologia">
-          <div class="head-cell border bgcolor">
-            <strong>FISIOLOGIA</strong>
-          </div>
-          <div class="cell border">
-            <div>Memória Eletrofisiologia</div>
-            <div class="pages">
+          <strong>FISIOLOGIA</strong>
+          <div>
+            <span>Memória Eletrofisiologia</span>
+            <nav>
               <a href="temas/fisiologia/memoria-eletrofisiologia/1.pdf" target="_blank">1</a>
               <a href="temas/fisiologia/memoria-eletrofisiologia/2.pdf" target="_blank">2</a>
               <a href="temas/fisiologia/memoria-eletrofisiologia/3.pdf" target="_blank">3</a>
-            </div>
+            </nav>
           </div>
-        </div>
-
-        <!-- <div class="empty-cell border"></div> -->
-
-        <div class="border" id="ofidismo">
-          <div class="head-cell border bgcolor">
-            <strong>OFIDISMO</strong>
-          </div>
-          <div class="cell border">
-            <div>Regional</div>
-            <div>
+          <strong>OFIDISMO</strong>
+          <div>
+            <span>Regional</span>
+            <nav>
               <a href="temas/ofidismo/regional/1.pdf" target="_blank">1</a>
               <a href="temas/ofidismo/regional/2.pdf" target="_blank">2</a>
               <a href="temas/ofidismo/regional/3.pdf" target="_blank">3</a>
               <a href="temas/ofidismo/regional/3.pdf" target="_blank">4</a>
               <a href="temas/ofidismo/regional/3.pdf" target="_blank">5</a>
-            </div>
+            </nav>
           </div>
-          <div class="cell border">
-            <div>Plantas Antiofídicas</div>
-            <div>
+          <div>
+            <span>Plantas Antiofídicas</span>
+            <nav>
               <a href="temas/ofidismo/plantas_antiofídicas/1.pdf" target="_blank">1</a>
               <a href="temas/ofidismo/plantas_antiofídicas/2.pdf" target="_blank">2</a>
-            </div>
+            </nav>
           </div>
-        </div>
-
-        <!-- <div class="empty-cell border"></div> -->
-
-        <div class="border" id="saude-publica">
-          <div class="head-cell border bgcolor">
-            <strong>SAÚDE PÚBLICA</strong>
-          </div>
-          <div class="cell border">
-            <div>Parasitismos Zoonoses Poluições</div>
-            <div>
+          <strong>SAÚDE PÚBLICA</strong>
+          <div>
+            <span>Parasitismos Zoonoses Poluições</span>
+            <nav>
               <a href="temas/saude-publica/parasitismos-zoonoses-poluicoes/1.pdf" target="_blank">1</a>
               <a href="temas/saude-publica/parasitismos-zoonoses-poluicoes/2.pdf" target="_blank">2</a>
               <a href="temas/saude-publica/parasitismos-zoonoses-poluicoes/3.pdf" target="_blank">3</a>
@@ -291,271 +200,97 @@
               <a href="temas/saude-publica/parasitismos-zoonoses-poluicoes/8.pdf" target="_blank">8</a>
               <a href="temas/saude-publica/parasitismos-zoonoses-poluicoes/9.pdf" target="_blank">9</a>
               <a href="temas/saude-publica/parasitismos-zoonoses-poluicoes/10.pdf" target="_blank">10</a>
-            </div>
+            </nav>
           </div>
-        </div>
-
-        <!-- <div class="empty-cell border"></div> -->
-
-      </div>
-
-
-      <div class="column">
-        <div class="head-cell border bgcolor">
+        </section>
+        <section>
           <strong>VOLUMES</strong>
-        </div>
-        
-        <div class="center-cell border">
           <a target="_blank" href="volumes/2023 Volume 23, Número 1.pdf">2023 Volume 23, Número 1</a>
-        </div>
-        
-        <div class="center-cell border bgcolor">
           <a target="_blank" href="volumes/2022 Volume 22, Número 1.pdf">2022 Volume 22, Número 1</a>
-        </div>
-
-        <div class="center-cell border">
           <a target="_blank" href="volumes/2020-2021 Volumes 20-21, Número 1.pdf">2020-2021 Volume 20/21, Número 1</a>
-        </div>
-        
-        <div class="center-cell border bgcolor">
           <a target="_blank" href="volumes/2019 Volume 19, Número 1.pdf">2019 Volume 19, Número 1</a>
-        </div>
-        
-        <div class="center-cell border">
           <a target="_blank" href="volumes/2018 Volume 18, Número 3.pdf">2018 Volume 18, Número 3</a>
-        </div>
-        
-        <div class="center-cell border bgcolor">
           <a target="_blank" href="volumes/2018 Volume 18, Número 2.pdf">2018 Volume 18, Número 2</a>
-        </div>
-        
-        <!-- <div class="center-cell border">
-          <a target="_blank" href="volumes/2018 Volume 18, Número 1.pdf">2018 Volume 18, Número 1</a>
-        </div>
-         -->
-        <div class="center-cell border ">
           <a target="_blank" href="volumes/2017 Volume 17, Número 2.pdf">2017 Volume 17, Número 2</a>
-        </div>
-        
-        <div class="center-cell border bgcolor">
           <a target="_blank" href="volumes/2017 Volume 17, Número 1.pdf">2017 Volume 17, Número 1</a>
-        </div>
-        
-        <!-- <div class="center-cell border bgcolor">
-          <a target="_blank" href="#">2017 Publição Avulsa, (Atual Volume 19)</a>
-        </div>-->
-         
-        <div class="center-cell border">
           <a target="_blank" href="volumes/2016 Volume 16, Número 2.pdf">2016 Volume 16, Número 2</a>
-        </div>
-        
-        <!-- <div class="center-cell border bgcolor">
-          <a target="_blank" href="volumes/2016 Volume 16, Número 1.pdf">2016 Volume 16, Número 1</a>
-        </div> -->
-        
-        <!-- <div class="center-cell border">
-          <a target="_blank" href="volumes/2015 Volume 15, Número 2.pdf">2015 Volume 15, Número 2</a>
-        </div> -->
-        
-        <div class="center-cell border bgcolor">
           <a target="_blank" href="volumes/2015 Volume 15, Número 1.pdf">2015 Volume 15, Número 1</a>
-        </div>
-        
-        <!-- <div class="center-cell border">
-          <a target="_blank" href="volumes/2014 Volume 14, Número 2.pdf">2014 Volume 14, Número 2</a>
-        </div> -->
-        
-        <div class="center-cell border">
           <a target="_blank" href="volumes/2014 Volume 14, Números 1-2.pdf">2014 Volume 14, Número 1-2</a>
-        </div>
-        
-        <!-- <div class="center-cell border">
-          <a target="_blank" href="volumes/2013 Volume 13, Número 2.pdf">2013 Volume 13, Número 2</a>
-        </div> -->
-        
-        <div class="center-cell border bgcolor">
           <a target="_blank" href="volumes/2013 Volume 13, Números 1-2.pdf">2013 Volume 13, Número 1-2</a>
-        </div>
-        
-        <div class="center-cell border">
           <a target="_blank" href="volumes/2012 Volume 12, Número 2.pdf">2012 Volume 12, Número 2</a>
-        </div>
-        
-        <div class="center-cell border bgcolor">
           <a target="_blank" href="volumes/2012 Volume 12, Número 1.pdf">2012 Volume 12, Número 1</a>
-        </div>
-        
-        <div class="center-cell border">
           <a target="_blank" href="volumes/2011 Volume 11, Número 2.pdf">2011 Volume 11, Número 2</a>
-        </div>
-        
-        <div class="center-cell border bgcolor">
           <a target="_blank" href="volumes/2011 Volume 11, Número 1.pdf">2011 Volume 11, Número 1</a>
-        </div>
-       
-        <div class="center-cell border">
           <a target="_blank" href="volumes/2010 Volume 10, Número 2.pdf">2010 Volume 10, Número 2</a>
-        </div>
-        
-        <div class="center-cell border bgcolor">
           <a target="_blank" href="volumes/2010 Volume 10, Número 1.pdf">2010 Volume 10, Número 1</a>
-        </div>
-        
-        <div class="center-cell border">
           <a target="_blank" href="volumes/2009 Volume 9, Número 2.pdf">2009 Volume 9, Número 2</a>
-        </div>
-        
-        <div class="center-cell border bgcolor">
           <a target="_blank" href="volumes/2009 Volume 9, Número 1.pdf">2009 Volume 9, Número 1</a>
-        </div>
-        
-        <div class="center-cell border">
           <a target="_blank" href="volumes/2008 Volume 8, Número 2.pdf">2008 Volume 8, Número 2</a>
-        </div>
-        
-        <div class="center-cell border bgcolor">
           <a target="_blank" href="volumes/2008 Volume 8, Número 1.pdf">2008 Volume 8, Número 1</a>
-        </div>
-        
-        <div class="center-cell border">
           <a target="_blank" href="volumes/2007 Volume 7, Número 2.pdf">2007 Volume 7, Número 2</a>
-        </div>
-        
-        <div class="center-cell border bgcolor">
-          <a target="_blank" href="2007 Volume 7, Número 1.pdf">2007 Volume 7, Número 1</a>
-        </div>
-        
-        <div class="center-cell border">
+          <a target="_blank" href="volumes/2007 Volume 7, Número 1.pdf">2007 Volume 7, Número 1</a>
           <a target="_blank" href="volumes/2006 Volume 6, Número 2.pdf">2006 Volume 6, Número 2</a>
-        </div>
-        
-        <div class="center-cell border bgcolor">
-          <a target="_blank" href="temas/2005 Volume 6, Número 1.pdf">2005 Volume 6, Número 1</a>
-        </div>
-        
-        <div class="center-cell border">
+          <a target="_blank" href="volumes/2005 Volume 6, Número 1.pdf">2005 Volume 6, Número 1</a>
           <a target="_blank" href="volumes/2004-2005 Volume 5, Número 2.pdf">2004-2005 Volume 5, Número 2</a>
-        </div>
-        
-        <div class="center-cell border bgcolor">
           <a target="_blank" href="volumes/2004 Volume 5, Número 1.pdf">2004 Volume 5, Número 1</a>
-        </div>
-        
-        <div class="center-cell border">
-          <a target="_blank" href="volumes/2004 Volume 4, Número 2.pdf">2004 Volume 4, Número 2</a>
-        </div>
-       
-        <div class="center-cell border bgcolor">
-          <a target="_blank" href="volumes/2003-2004 Volume 4, Número 1.pdf">2003-2004 Volume 4, Número 1</a>
-        </div>
-        
-        <div class="center-cell border">
+          <a target="_blank" href="volumes/2003-2004 Volume 4, Número 2.pdf">2004 Volume 4, Número 2</a>
+          <a target="_blank" href="volumes/2004 Volume 4, Número 1.pdf">2003-2004 Volume 4, Número 1</a>
           <a target="_blank" href="volumes/2002-2003 Volume 3, Número 2.pdf">2002-2003 Volume 3, Número 2</a>
-        </div>
-        
-        <div class="center-cell border bgcolor">
           <a target="_blank" href="volumes/2002 Volume 3, Número 1.pdf">2002 Volume 3, Número 1</a>
-        </div>
-        
-        <div class="center-cell border">
           <a target="_blank" href="volumes/2001 Volume 2, Número 2.pdf">2001 Volume 2, Número 2</a>
-        </div>
-        
-        <div class="center-cell border bgcolor">
           <a target="_blank" href="volumes/2001 Volume 2, Número 1.pdf">2001 Volume 2, Número 1</a>
-        </div>
-        
-        <div class="center-cell border">
-          <a target="_blank" href="volumes/2000 Volume 1,Número 1.pdf">2000 Volume 1,Número 1</a>
-        </div>
-      </div>
-
-      <div class="column">
-        <div class="head-cell border bgcolor">
+          <a target="_blank" href="volumes/2000 Volume 1, Número 1.pdf">2000 Volume 1, Número 1</a>
+        </section>
+        <section>
           <strong>LIVROS E SÉRIES</strong>
-        </div>
-
-        <div class="cell border bgcolor">
           <a href="livros-e-series/parque-nacional-serra-de-itabaiana/index.html" target="_blank">Parque Nacional Serra de Itabaiana - Levantamento da Biota</a>
-        </div>
-
-        <div class="empty-cell border"></div>
-
-        <div class="cell border bgcolor">
           <a href="livros-e-series/Atlas Histológico de Lagartos.pdf" target="_blank">Atlas Histológico de Lagartos</a>
-        </div>
-
-        <div class="empty-cell border"></div>
-
-        <div class="cell border bgcolor">
           <a href="livros-e-series/primatologia_no_brasil/index.html">A Primatologia no Brasil vol.9</a>
-        </div>
-
-        <div class="empty-cell border"></div>
-
-        <div class="cell border bgcolor">
-          <p>Vertebrados Terrestres de Roraima<br> versão atualizada 2021</p>
-          <a href="livros-e-series/Vertebrados-Terrestres-de-Roraima/12 Completo.pdf">Acessar Completo</a>
-          <a href="livros-e-series/Vertebrados-Terrestres-de-Roraima/vertebrados-terrestres-2021.html">Acessar Capitulos</a>
-        </div>
-
-        <div class="empty-cell border"></div>
-
-        <div class="cell border bgcolor">
-          <p>Ecossistemas e paisagens Roraima</p>
-          <a href="livros-e-series/Ecossistemas-e-paisagens-Roraima/Ecologia Roraima 1.pdf">Ecologia Roraima 1</a>
-          <a href="livros-e-series/Ecossistemas-e-paisagens-Roraima/Ecologia Roraima 2.pdf">Ecologia Roraima 2</a>
-        </div>
-
-        <div class="empty-cell border"></div>
-
-        <div class="cell border bgcolor">
-          <p>Guia ilustrado quelônios e anfíbios Roraima</p>
-          <a href="livros-e-series/Guia-ilustrado-quelônios-e-anfíbios-Roraima/Anfíbios, lavrado, Roraima ilustrado.pdf">Anfíbios, lavrado, Roraima ilustrado</a>
-          <a href="livros-e-series/Guia-ilustrado-quelônios-e-anfíbios-Roraima/Quelônios, Roraima ilustrado.pdf">Quelônios, Roraima ilustrado</a>
-        </div>
-
-        <div class="empty-cell border"></div>
-
-        <div class="cell border bgcolor">
-          <p>Microcrustáceos</p>
-          <a href="livros-e-series/Microcrustáceos/Calanoida 1.pdf">Calanoida 1</a>
-          <a href="livros-e-series/Microcrustáceos/Calanoida 2.pdf">Calanoida 2</a>
-          <a href="livros-e-series/Microcrustáceos/Moina, Amazônia.pdf">Moina, Amazônia</a>
-        </div>
-
-        <div class="empty-cell border"></div>
-
-        <div class="cell border bgcolor">
-          <p>Ofidismo</p>
-          <a href="livros-e-series/Ofidismo/Ofidismo Amazonas.pdf">Ofidismo Amazonas</a>
-          <a href="livros-e-series/Ofidismo/Ofidismo nordeste 1.pdf">Ofidismo nordeste 1</a>
-          <a href="livros-e-series/Ofidismo/Ofidismo nordeste 2.pdf">Ofidismo nordeste 2</a>
-          <a href="livros-e-series/Ofidismo/Ofidismo Roraima 1.pdf">Ofidismo Roraima 1</a>
-          <a href="livros-e-series/Ofidismo/Ofidismo Roraima 2.pdf">Ofidismo Roraima 2</a>
-        </div>
-
-        <div class="empty-cell border"></div>
-
-        <div class="cell border bgcolor">
-          <p>Parasitos peixes, zoonoses</p>
-          <a href="livros-e-series/Parasitos-peixes-zoonoses/Parasitos, peixes, Amazônia 1.pdf">Parasitos, peixes, Amazônia 1</a>
-          <a href="livros-e-series/Parasitos-peixes-zoonoses/Parasitos, peixes, Amazônia 2.pdf">Parasitos, peixes, Amazônia 2</a>
-          <a href="livros-e-series/Parasitos-peixes-zoonoses/Parasitos, peixes, Amazônia 3.pdf">Parasitos, peixes, Amazônia 3</a>
-          <a href="livros-e-series/Parasitos-peixes-zoonoses/Zoonoses, Sergipe, vetores 1.pdf">Zoonoses, Sergipe, vetores 1</a>
-          <a href="livros-e-series/Parasitos-peixes-zoonoses/Zoonoses, Sergipe, vetores 2.pdf">Zoonoses, Sergipe, vetores 2</a>
-        </div>
-
-        <div class="empty-cell border"></div>
-
-        <div class="cell border bgcolor">
-          <p>PE Vanzolini em BGE</p>
-          <a href="livros-e-series/PE-Vanzolini-em-BGE/Completo.pdf">Completo</a>
-          <a href="livros-e-series/PE-Vanzolini-em-BGE/Podocnemis, reprodução.pdf">Podocnemis, reprodução</a>
-          <a href="livros-e-series/PE-Vanzolini-em-BGE/Crotalus, biologia reprodutiva.pdf">Crotalus, biologia reprodutiva</a>
-          <a href="livros-e-series/PE-Vanzolini-em-BGE/Ecogeografia, cerrados.pdf">Ecogeografia, cerrados</a>
-        </div>
-      </div>
+          <details>
+            <summary>Vertebrados Terrestres de Roraima versão atualizada 2021</summary>
+            <a href="livros-e-series/Vertebrados-Terrestres-de-Roraima/12 Completo.pdf" target="_blank">Acessar Completo</a>
+            <a href="livros-e-series/Vertebrados-Terrestres-de-Roraima/vertebrados-terrestres-2021.html">Acessar Capitulos</a>
+          </details>
+          <details>
+            <summary>Ecossistemas e paisagens Roraima</summary>
+            <a href="livros-e-series/Ecossistemas-e-paisagens-Roraima/Ecologia Roraima 1.pdf" target="_blank">Ecologia Roraima 1</a>
+            <a href="livros-e-series/Ecossistemas-e-paisagens-Roraima/Ecologia Roraima 2.pdf" target="_blank">Ecologia Roraima 2</a>
+          </details>
+          <details>
+            <summary>Guia ilustrado quelônios e anfíbios Roraima</summary>
+            <a href="livros-e-series/Guia-ilustrado-quelônios-e-anfíbios-Roraima/Anfíbios, lavrado, Roraima ilustrado.pdf" target="_blank">Anfíbios, lavrado, Roraima ilustrado</a>
+            <a href="livros-e-series/Guia-ilustrado-quelônios-e-anfíbios-Roraima/Quelônios, Roraima ilustrado.pdf" target="_blank">Quelônios, Roraima ilustrado</a>
+          </details>
+          <details>
+            <summary>Microcrustáceos</summary>
+            <a href="livros-e-series/Microcrustáceos/Calanoida 1.pdf" target="_blank">Calanoida 1</a>
+            <a href="livros-e-series/Microcrustáceos/Calanoida 2.pdf" target="_blank">Calanoida 2</a>
+            <a href="livros-e-series/Microcrustáceos/Moina, Amazônia.pdf" target="_blank">Moina, Amazônia</a>
+          </details>
+          <details>
+            <summary>Ofidismo</summary>
+            <a href="livros-e-series/Ofidismo/Ofidismo Amazonas.pdf" target="_blank">Ofidismo Amazonas</a>
+            <a href="livros-e-series/Ofidismo/Ofidismo nordeste 1.pdf" target="_blank">Ofidismo nordeste 1</a>
+            <a href="livros-e-series/Ofidismo/Ofidismo nordeste 2.pdf" target="_blank">Ofidismo nordeste 2</a>
+            <a href="livros-e-series/Ofidismo/Ofidismo Roraima 1.pdf" target="_blank">Ofidismo Roraima 1</a>
+            <a href="livros-e-series/Ofidismo/Ofidismo Roraima 2.pdf" target="_blank">Ofidismo Roraima 2</a>
+          </details>
+          <details>
+            <summary>Parasitos peixes, zoonoses</summary>
+            <a href="livros-e-series/Parasitos-peixes-zoonoses/Parasitos, peixes, Amazônia 1.pdf" target="_blank">Parasitos, peixes, Amazônia 1</a>
+            <a href="livros-e-series/Parasitos-peixes-zoonoses/Parasitos, peixes, Amazônia 2.pdf" target="_blank">Parasitos, peixes, Amazônia 2</a>
+            <a href="livros-e-series/Parasitos-peixes-zoonoses/Parasitos, peixes, Amazônia 3.pdf" target="_blank">Parasitos, peixes, Amazônia 3</a>
+            <a href="livros-e-series/Parasitos-peixes-zoonoses/Zoonoses, Sergipe, vetores 1.pdf" target="_blank">Zoonoses, Sergipe, vetores 1</a>
+            <a href="livros-e-series/Parasitos-peixes-zoonoses/Zoonoses, Sergipe, vetores 2.pdf" target="_blank">Zoonoses, Sergipe, vetores 2</a>
+          </details>
+          <details>
+            <summary>PE Vanzolini em BGE</summary>
+            <a href="livros-e-series/PE-Vanzolini-em-BGE/Completo.pdf" target="_blank">Completo</a>
+            <a href="livros-e-series/PE-Vanzolini-em-BGE/Podocnemis, reprodução.pdf" target="_blank">Podocnemis, reprodução</a>
+            <a href="livros-e-series/PE-Vanzolini-em-BGE/Crotalus, biologia reprodutiva.pdf" target="_blank">Crotalus, biologia reprodutiva</a>
+            <a href="livros-e-series/PE-Vanzolini-em-BGE/Ecogeografia, cerrados.pdf" target="_blank">Ecogeografia, cerrados</a>
+          </details>
+        </section>
     </main>
   </body>
 </html>

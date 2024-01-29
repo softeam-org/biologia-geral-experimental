@@ -1,0 +1,138 @@
+/* Global */
+
+:root {
+  --gray: rgba(0, 0, 0, 0.015);
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 12px;
+}
+
+body {
+  padding: 1rem;
+  margin: 0 auto;
+  max-width: 90rem;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+main {
+  padding: 1rem 0;
+}
+
+a:link,
+a:active,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar>img {
+  align-self: center;
+  margin-bottom: 1rem;
+}
+
+.navbar nav {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0.3rem 0;
+  gap: 0.3rem;
+  background-color: rgb(230, 230, 230);
+}
+
+.navbar nav>a {
+  color: black;
+  font-weight: bold;
+  padding: 0 0.3rem 0;
+  border-left: black solid 2px;
+  border-right: black solid 2px;
+}
+
+details>summary:hover {
+  cursor: pointer;
+}
+
+/* index.html */
+
+.presentation-content {
+  max-width: 60rem;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.presentation-content>p:first-child {
+  width: 100%;
+  font-size: 0.9rem;
+  font-style: italic;
+  text-align: end;
+}
+
+.presentation-content>p {
+  margin: .5rem 0;
+}
+
+/* editoracao.html */
+
+.publishing-content table {
+  background-color: var(--gray);
+  border: 1px solid var(--gray);
+}
+
+.publishing-content table th,
+.publishing-content table td {
+  padding: .5rem;
+  border: 1px solid var(--gray);
+  text-align: center;
+}
+
+.publishing-content table tr:nth-child(even),
+.publishing-content table th {
+  background-color: var(--gray);
+}
+
+.publishing-content table tr:nth-child(odd) {
+  background-color: white;
+}
+
+/* contatos.html */
+
+.contacts-content {
+  text-align: center;
+}
+
+/* edicoes.html */
+
+.editions-content {
+  display: grid;
+  grid: auto-flow dense / 1fr 1fr 1fr;
+  gap: .5rem;
+}
+
+.editions-content>section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.editions-content>section>* {
+  padding: 1rem;
+  border: 2px solid var(--gray);
+}
+
+.editions-content>section>strong {
+  background: var(--gray);
+}
+
+.editions-content>section>details {
+  display: flex;
+  flex-direction: column;
+}
